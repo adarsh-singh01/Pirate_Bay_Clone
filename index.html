@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Pirate Bay</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="./src/pbay.png">
+</head>
+
+<body>
+    <div class="flex flex-col  items-center">
+        <img class="w-1/2 mb-4  sm:w-1/4" src="./src/The_Pirate_Bay_logo.svg">
+        
+            
+        <div class="text-blue-500 font-sans text-[12px] flex flex-col items-center  sm:flex-row ">
+            <h1 class="font-bold text-black px-4 py-1 ">Search Torrents </h1>
+            <a class="hidden sm:block text-black">|</a>
+            <a class="underline decoration-dotted  px-4 py-1 cursor-pointer">Browse Torrents</a>
+            <a class="hidden sm:block text-black">|</a>
+            <a class="underline decoration-dotted px-4 py-1 cursor-pointer">Recent Torrents</a>
+            <a class="hidden sm:block text-black">|</a>
+            <a class="underline decoration-dotted px-4 py-1 cursor-pointer">TV shows</a>
+            <a class="hidden sm:block text-black">|</a>
+            <a class="underline decoration-dotted px-4 py-1 cursor-pointer">Music</a>
+            <a class="hidden sm:block text-black">|</a>
+            <a class="underline decoration-dotted px-4 py-1 cursor-pointer">Top 100</a>
+        </div>
+          
+        
+
+<div>
+<input class="bg-white w-full xsm:w-72 sm:w-96 border-slate-500 border-2 my-4 rounded-3xl px-3 font-sans text-[12px]" onfocus="this.value=''" type="search" value="Pirate Search" >
+</div>
+
+<div class="grid grid-cols-2  xsm:grid-cols-3 sm:flex sm:space-x-2 font-sans text-[12px]">
+<div><input type="checkbox" checked> All</div>
+<div><input type="checkbox"> Audio</div>
+<div><input type="checkbox"> Video</div>
+<div class="mr-3 vsm:mr-0"><input type="checkbox"> Games</div>
+<div class="hidden vsm:block mr-3"><input  type="checkbox"> Application</div>
+<div><input type="checkbox"> Other</div>
+</div>
+
+<div class=" xsm:hidden flex flex-col space-y-2 my-3 font-sans text-[12px]">
+    <button class="bg-gradient-to-b from-gray-50 to-gray-300 hover:bg-gradient-to-b hover:from-gray-100 hover:to-gray-400 border-slate-500 border-2 mx-2 px-2 rounded-md">Pirate Search</button>
+    <button class=" bg-gradient-to-b from-gray-50 to-gray-300 hover:bg-gradient-to-b hover:from-gray-100 hover:to-gray-400 border-slate-500 border-2 px-2 rounded-md">I'm Feeling Lucky</button>
+</div>
+
+<div class="hidden xsm:block space-y-2 my-3 font-sans text-[12px]">
+    <button class="bg-gradient-to-b from-gray-50 to-gray-300 hover:bg-gradient-to-b hover:from-gray-100 hover:to-gray-400 border-slate-500 border-2 mx-2 px-2 rounded-md">Pirate Search</button>
+    <button class="bg-gradient-to-b from-gray-50 to-gray-300 hover:bg-gradient-to-b hover:from-gray-100 hover:to-gray-400 border-slate-500 border-2 px-2 rounded-md ">I'm Feeling Lucky</button>
+</div>
+
+<h2 class="font-sans font-bold text-blue-500 mb-2 mt-3  text-[15px] cursor-pointer hover:underline hover:decoration-dotted">How do I download?</h2>
+
+
+<div class="text-blue-500 flex flex-col vsm:flex-row items-center my-3  font-sans text-[12px]">
+    <a class="underline decoration-dotted px-2 py-1 cursor-pointer">Usage Policy</a>
+    <a class="hidden vsm:block text-black">|</a>
+    <a class="underline decoration-dotted px-2 py-1 cursor-pointer">Search Cloud</a>
+    <a class="hidden vsm:block text-black">|</a>
+    <a class="underline decoration-dotted px-2 py-1 cursor-pointer">Tag Cloud</a>
+</div>
+
+
+<footer class="font-sans text-[12px]">&#169;The Pirate Bay-2024</footer>
+
+
+    </div>
+</body>
+</html>
